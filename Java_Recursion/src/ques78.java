@@ -1,5 +1,7 @@
+// Question: https://leetcode.com/problems/subsets/description/
+// https://www.youtube.com/watch?v=AxNNVECce8c&list=PLgUwDviBIf0rGlzIn_7rsaR2FQ5e6ZOL9&index=6
+
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 class Solution {
@@ -28,3 +30,6 @@ class Solution {
         subsets_helper(index+1, nums, subset, result);
     }
 }
+
+// Time complexity  = 2^n - Make the recursion tree and see.
+// Space Complexity = O(n)
